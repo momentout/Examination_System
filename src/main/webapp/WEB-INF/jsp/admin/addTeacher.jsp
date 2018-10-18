@@ -32,7 +32,7 @@
 							  <div class="form-group">
 							    <label for="inputEmail3" class="col-sm-2 control-label">工号</label>
 							    <div class="col-sm-10">
-							      <input type="number" class="form-control" id="inputEmail3" name="userid" placeholder="请输入学号">
+							      <input type="number" class="form-control" id="inputEmail3" name="userid" placeholder="请输入老师工号">
 							    </div>
 							  </div>
 							  <div class="form-group">
