@@ -12,6 +12,9 @@ File Encoding         : 65001
 
 Date: 2017-07-08 00:03:38
 */
+create database examination_system;
+
+use examination_system;
 
 SET FOREIGN_KEY_CHECKS=0;
 
