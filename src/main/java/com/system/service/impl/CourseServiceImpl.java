@@ -31,7 +31,7 @@ public class CourseServiceImpl implements CourseService {
     @Autowired
     private SelectedcourseMapper selectedcourseMapper;
 
-    public void upadteById(Integer id, CourseCustom courseCustom) throws Exception {
+    public void updateById(Integer id, CourseCustom courseCustom) throws Exception {
         courseMapper.updateByPrimaryKey(courseCustom);
     }
 

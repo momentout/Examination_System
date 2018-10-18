@@ -337,7 +337,7 @@ public class AdminController {
     @RequestMapping(value = "/editCourse", method = {RequestMethod.POST})
     public String editCourse(CourseCustom courseCustom) throws Exception {
 
-        courseService.upadteById(courseCustom.getCourseid(), courseCustom);
+        courseService.updateById(courseCustom.getCourseid(), courseCustom);
 
         //重定向
         return "redirect:/admin/showCourse";
